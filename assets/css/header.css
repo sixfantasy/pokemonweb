@@ -13,20 +13,12 @@ header {
         display: none;
     }
 
-    >[href="./"] {
-        font-family: "Orbitron", sans-serif;
-        font-size: 1.5em;
-        line-height: initial;
-        transform: translateY(0.1em);
-        margin-right: auto;
-    }
-
     button {
         width: 1em;
         /* padding: 0.5em; */
     }
 
-    details:has(img) {
+    /* details:has(img) {
         width: 1.4em;
 
         summary {
@@ -48,7 +40,7 @@ header {
                 display: none;
             }
         }
-    }
+    } */
 
     path {
         stroke: var(--text);
@@ -161,17 +153,6 @@ header {
 
                 &:hover {
                     background-color: var(--background-nav);
-                }
-            }
-
-            details {
-                ul {
-                    position: absolute;
-                    background-color: var(--secondary-bg);
-
-                    a {
-                        padding: 0.5em 1em;
-                    }
                 }
             }
         }
