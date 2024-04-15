@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Mukta';
+	src: url('../fonts/mukta-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Mukta';
+	src: url('../fonts/mukta-bold.woff2') format('woff2');
+	font-weight: bold;
+}
+
+:root {
+	--primary-bg: #121212;
+	--secondary-bg: #03460b;
+	--text: #e0e0e0;
+	--bold-text: #f3efef;
+	--list-number: #f1e203;
+	--background-nav: #1f5e06;
+	scrollbar-color: var(--) var(--);
+}
+
+body {
+	font: calc(1*16*100/360*1vw)/1.35 "Mukta", sans-serif;
+	color: var(--);
+	background-color: var(--);
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4em 0;
+	padding: 3em 10vw 4em;
+}
+
+@media screen and (541px <=width) {
+	body {
+		font-size: clamp(1em, calc(1*16*100/600*1vw), 1.25em);
+	}
+
+	main {
+		padding: 3em 7.5vw 4em;
+	}
+}
+
+@media screen and (1083px <=width) {
+	body {
+		font-size: clamp(1em, calc(1*16*100/1366*1vw), 1.25em);
+
+	}
+
+	main {
+		padding: 5em 7.5vw 6em;
+	}
+}
