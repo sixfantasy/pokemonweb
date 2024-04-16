@@ -40,6 +40,11 @@ const printPokemons = (pokemon) => {
 			<img src="${pokemon.sprites.other['official-artwork'].front_default}" alt="Pokemon ${pokemon.name}">
 			<ul>
 				<li><strong>Height:</strong> ${pokemon.height}</li>
+				<li><strong>Weight:</strong> ${pokemon.weight}</li>
+				<li><strong>Base experience:</strong> ${pokemon.base_experience}</li>
+				<li><strong>Scream:</strong> <audio src="${pokemon.cries.latest}" controls></audio></li>
+
+				<li>
 			</ul>
 		</article>`
 
