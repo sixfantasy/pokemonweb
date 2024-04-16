@@ -32,6 +32,11 @@ main {
 	padding: 3em 10vw 4em;
 }
 
+h1{
+	width: 100%;
+	text-align: center;
+}
+
 @media screen and (541px <=width) {
 	body {
 		font-size: clamp(1em, calc(1*16*100/600*1vw), 1.25em);
