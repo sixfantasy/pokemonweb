@@ -1,18 +1,6 @@
-header{
-    display: flex;
-}
-main{
-    background-color: aqua;
-}
-footer{
-    background-color: aqua;
-}
 h1{
     font-size:xx-large;
 }
 p{
     font-size: large;
-}
-img{
-    font-size: small
 }
