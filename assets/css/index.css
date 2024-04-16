@@ -76,3 +76,6 @@ article {
     color: #84ACD8;
     font-size: 148px;
 }
+#description {
+    color: var(--color-secondary);
+}
