@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title></title>
+	<meta name="description" content="">
+
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<meta property="og:locale" content="en">
+	<meta property="og:site_name" content="">
+
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="">
+
+	<link href="./assets/img/favicon/favicon.svg" rel="icon">
+	<link href="./assets/img/favicon/macos/favicon.png" rel="icon" type="image/png" sizes="32x32">
+	<link href="./assets/img/favicon/macos/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+	<link href="./assets/fonts/public/poppins-medium.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+	<link href="./assets/fonts/public/poppins-semibold.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+	<link href="./assets/fonts/public/orbitron-extrabold.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+
+	<link href="./assets/css/reset.css" rel="preload stylesheet" as="style">
+	<link href="./assets/css/common.css" rel="preload stylesheet" as="style">
+	<link href="./assets/css/header.css" rel="preload stylesheet" as="style">
+	<link href="./assets/css/search.css" rel="preload stylesheet" as="style">
+
+	<link href="" rel="canonical">
+
+	<script src="./assets/js/database.js" defer></script>
+	<script src="./assets/js/index.js" defer></script>
+
+</head>
+
+<body>
+
+	<header>
+
+		<a href="#main">Ir al contenido principal</a>
+
+		<a href="./" tabindex="-1">
+			<img src="./assets/img/favicon/poke-ball.svg" alt="">
+		</a>
+
+		<nav id="nav" popover>
+
+			<button type="button" popovertarget="nav" popovertargetaction="hide" aria-label="Abrir menú de navegación">
+
+				<svg viewBox="0 0 556 556">
+					<path d="m24.336 24.336 506.648 506.648M530.984 24.336 24.336 530.984" />
+				</svg>
+
+			</button>
+
+			<ul>
+				<li><a href="./">Home</a></li>
+				<li><a href="./about-us.html">About us</a></li>
+				<li><a href="./search.html" aria-current="page">Catch 'em</a></li>
+			</ul>
+
+		</nav>
+
+		<button type="button" popovertarget="nav" popovertargetaction="show" aria-label="Abrir menú de navegación">
+
+			<svg viewBox="0 0 556 556">
+				<path d="M0 277.66h555.187M0 30.91h555.187M0 525.844h555.187" />
+			</svg>
+
+		</button>
+
+	</header>
+
+	<main id="main">
+
+		<h1>Find them!</h1>
+
+		<search>
+			<input id="searchBar" autocomplete="off" placeholder="Blastoise">
+		</search>
+
+		<output for="searchBar" id="fetchResponse"></output>
+		<output for="searchBar" id="errorMessage"></output>
+
+		<button type="button" id="searchButton">Search</button>
+
+	</main>
+
+</body>
+
+</html>
