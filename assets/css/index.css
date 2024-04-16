@@ -47,4 +47,32 @@ article {
     position: absolute;
     z-index: 100;
 }
-
+#banner-background {
+    position: relative;
+    z-index: -1;
+}
+#entry-title {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 258px;
+    margin-top: 350px;
+}
+#pikaEvolution {
+    position: absolute;
+    z-index: 1;
+}
+#blastoise {
+    position: relative;
+}
+#blastoiseImage {
+    position: absolute;
+    width: 592px;
+}
+#blastoiseHeader {
+    position: relative;
+    font-weight: bold;
+    line-height: 1;
+    color: #84ACD8;
+    font-size: 148px;
+}
