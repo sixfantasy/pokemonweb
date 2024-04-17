@@ -20,10 +20,11 @@
     position: relative;
     z-index: 0;
 }
-#ray-icon {
+.icon {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: -1;
 }
 
