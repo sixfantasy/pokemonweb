@@ -34,7 +34,6 @@ const parseJson = async (response) => {
 }
 
 const printPokemons = (pokemon) => {
-	// console.log(typeof(pokemon.types))
 	const POKEMON_CARD =
 
 				`<article>
@@ -56,8 +55,8 @@ const printPokemons = (pokemon) => {
 									<p>${pokemon.height}</p>
 								</li>
 								<li>
-									<h3>GENERATION</h3>
-									<p>V</p>
+									<h3>TYPE</h3>
+									<p>${pokemon.types[0].type.name}</p>
 								</li>
 							</ul>
 							<ul class="column">
