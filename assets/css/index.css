@@ -1,11 +1,12 @@
-
 #blastoise {
     position: relative;
 }
+
 #blastoiseImage {
     position: absolute;
     width: 592px;
 }
+
 #blastoiseHeader {
     position: relative;
     font-weight: bold;
@@ -13,6 +14,7 @@
     color: #84ACD8;
     font-size: 148px;
 }
+
 #description {
     color: var(--color-secondary);
 }
@@ -21,6 +23,7 @@
     position: relative;
     z-index: -1;
 }
+
 #entry-title {
     position: absolute;
     z-index: 1;
@@ -28,7 +31,24 @@
     font-size: 258px;
     margin-top: 350px;
 }
+
 #pikaEvolution {
     position: absolute;
     z-index: 1;
+}
+
+.cards {
+    display: grid;
+}
+
+@media screen and (700px <=width) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (1083px <=width) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
