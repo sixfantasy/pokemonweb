@@ -7,7 +7,7 @@ header {
     align-items: center;
     z-index: 2;
     gap: 0 1em;
-    background-color: var(--secondary-bg);
+    background-color: #000000;
 
     [href="#main"] {
         display: none;
