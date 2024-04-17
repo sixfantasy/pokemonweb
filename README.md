@@ -2,7 +2,7 @@
 ## 1.Sections
 We have three sections in this page: Home, About Us and the searcher.
 ### 1.1 Home
-This page tell you about the PokeApi and his advantatges and also has a a funny phrase about pokeapi .The website show you the data of Pikachu, and also has a image of Blastoise.
+This page tell you about the PokeApi and his advantatges and also has a a funny phrase about pokeapi .The website show you the data of Pikachu,Bulbasaur and Charmander, and also has a image of Blastoise.
 ### 1.2 About Us
 This page tells you our story, who did it, why we did it and a little of the about how the page works and has an image of Pikachu.
 ### 1.3 The Searcher 
