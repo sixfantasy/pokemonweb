@@ -49,33 +49,56 @@ article {
     box-shadow: 11px 10px 51px -18px rgba(0,0,0,0.35);
 }
 .pokeid {
-    border-radius: 25px;
-    align-content: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
+    font-size: 24px;
+    color: #ffff;
 }
-/* RAYO */
+/* ELECTRIC */
 .electric {
     background-image: linear-gradient(180deg,  rgb(235, 193, 8) 12%, rgb(237, 187, 7) 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #ECC664;
 }
-.idrayo {
-    background-color: #F3DA55;
-}
-/* PLANTA */
+/* GRASS */
 .grass {
     background-image: linear-gradient(180deg,  #4AA148 12%, #7CE27A 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #71DA6F;
 }
-.idplanta {
-    background-color: #99EB98;
-}
-/* FUEGO */
+/* FIRE */
 .fire {
     background-image: linear-gradient(180deg,  #D66904 12%, #DB9103 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #D76F05;
 }
-.idfuego {
-    background-color: #EDA840;
+/* WATER */
+.water {
+    background-image: linear-gradient(180deg,  #067bce 12%, #219DE3 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #0786E3;
+}
+/* POISON */
+.poison {
+    background-image: linear-gradient(180deg,  #651F7D 12%, #9947B6 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #651F7D;
+}
+/* PSYCHIC */
+.psychic {
+    background-image: linear-gradient(180deg,  #db94b6 12%, #dca6c0 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #db94b6;
+}
+/* GROUND */
+.ground {
+    background-image: linear-gradient(180deg,  #8d6f33 12%, #ae893f 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #8d6f33;
+}
+/* NORMAL */
+.normal {
+    background-image: linear-gradient(180deg,  #717170 12%, #9D9D9D 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #717170;
+}
+/* ROCK */
+.rock {
+    background-image: linear-gradient(180deg,  #C0A87B 12%, #D7C29B 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #C0A87B;
+}
+/* BUG */
+.bug {
+    background-image: linear-gradient(180deg,  #99C07B 12%, #B8D4A3 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #99C07B;
 }
