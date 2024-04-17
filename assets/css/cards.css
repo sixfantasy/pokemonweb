@@ -56,7 +56,7 @@ article {
     height: 35px;
 }
 /* RAYO */
-.rayo {
+.electric {
     background-image: linear-gradient(180deg,  rgb(235, 193, 8) 12%, rgb(237, 187, 7) 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #ECC664;
 }
@@ -64,7 +64,7 @@ article {
     background-color: #F3DA55;
 }
 /* PLANTA */
-.planta {
+.grass {
     background-image: linear-gradient(180deg,  #4AA148 12%, #7CE27A 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #71DA6F;
 }
@@ -72,7 +72,7 @@ article {
     background-color: #99EB98;
 }
 /* FUEGO */
-.fuego {
+.fire {
     background-image: linear-gradient(180deg,  #D66904 12%, #DB9103 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #D76F05;
 }
