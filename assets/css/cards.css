@@ -15,8 +15,8 @@
     padding-top: 24px;
 }
 .card-img {
-    height: 290px;
-    width: 100%;
+    height: auto;
+    width: 243px;
     position: relative;
     z-index: 0;
 }
@@ -44,6 +44,7 @@ article {
     padding: 24px;
     position: relative;
     border-radius: 8px;
+    width: 300px;
   
     z-index: -2;
     box-shadow: 11px 10px 51px -18px rgba(0,0,0,0.35);
@@ -79,8 +80,8 @@ article {
 }
 /* PSYCHIC */
 .psychic {
-    background-image: linear-gradient(180deg,  #db94b6 12%, #dca6c0 25%, rgba(255,255,255,1) 55%);
-    border: 2.5px solid #db94b6;
+    background-image: linear-gradient(180deg,  #d38379 12%, #FE9F92 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #d38379;
 }
 /* GROUND */
 .ground {
@@ -101,4 +102,19 @@ article {
 .bug {
     background-image: linear-gradient(180deg,  #99C07B 12%, #B8D4A3 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #99C07B;
+}
+/* GHOST */
+.ghost {
+    background-image: linear-gradient(180deg,  #58559F 12%, #7773D4 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #58559F;
+}
+/* ICE */
+.ice {
+    background-image: linear-gradient(180deg,  #73b6ae 12%, #8CDDD4 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #73b6ae;
+}
+/* FAIRY */
+.fairy {
+    background-image: linear-gradient(180deg,  #db94b6 12%, #dca6c0 25%, rgba(255,255,255,1) 55%);
+    border: 2.5px solid #db94b6;
 }
