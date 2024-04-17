@@ -51,3 +51,6 @@ article {
     top: 10px;
     left: 10px;
 }
+h2::first-letter{
+    text-transform: capitalize;
+}
