@@ -4,7 +4,7 @@
 }
 .card-info {
     display: flex;
-    gap: 28px;
+    gap: 18px;
 }
 .column {
     display: flex;
