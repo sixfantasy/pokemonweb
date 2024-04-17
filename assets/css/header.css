@@ -112,11 +112,12 @@ header {
 
             a {
                 padding: 0.5em 0.75em;
-                transition: background-color 0.35s;
+                transition: all 0.35s;
                 border-radius: 0.2em;
 
                 &:hover {
-                    background-color: var(--background-nav);
+                    background-color: #e0fffc;
+                    color: #000000;
                 }
             }
         }
