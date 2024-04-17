@@ -11,7 +11,7 @@ main {
 		padding: 0.35em 1em;
 		border-radius: 1em;
 		color: var(--main-text-color);
-		background-color: var(--list-number);
+		background-color: #d6d6d6;
 
 		&::placeholder {
 			color: inherit;
@@ -23,7 +23,7 @@ main {
 		border-radius: 1em;
 		padding: 0.5em 1em;
 		color: var(--main-text-color);
-		background-color: var(--background-nav);
+		background-color: #30e3e9;
 	}
 
 	#fetchResponse {
