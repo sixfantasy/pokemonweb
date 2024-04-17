@@ -17,9 +17,9 @@ header {
         width: 1em;
     }
 
-	[alt="logo"]{
-		width: 5em;
-	}
+    [alt="logo"] {
+        width: 5em;
+    }
 
     path {
         stroke: var(--text);
@@ -53,16 +53,10 @@ header {
             margin: 1.25em 10vw 0 auto;
         }
 
-        :is(summary, a) {
+        a {
             padding: 0.35em 2em;
             display: list-item;
             color: var(--text);
-        }
-
-        details {
-            a {
-                padding-left: 3em;
-            }
         }
     }
 
@@ -70,7 +64,7 @@ header {
         padding: 1.35em 7.5vw;
         gap: 0 1.5em;
 
-        [alt="logo"]{
+        [alt="logo"] {
             width: 7em;
         }
 
@@ -104,11 +98,6 @@ header {
             }
         }
 
-        >[href="./"] {
-            font-size: 2.25em;
-            margin-right: 0;
-        }
-
         button {
             display: none;
         }
@@ -121,7 +110,7 @@ header {
                 align-items: baseline;
             }
 
-            :is(summary, a) {
+            a {
                 padding: 0.5em 0.75em;
                 transition: background-color 0.35s;
                 border-radius: 0.2em;
