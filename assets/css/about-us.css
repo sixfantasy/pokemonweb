@@ -6,5 +6,12 @@ h1{
 }
 p{
     font-size: large;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#Pikachu2Image {
+    width: 500px;
+    margin-left: 450px;
+    margin-right: 250px;
 }
 
