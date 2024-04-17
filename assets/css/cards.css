@@ -62,40 +62,64 @@ article {
     background-image: linear-gradient(180deg,  rgb(235, 193, 8) 12%, rgb(237, 187, 7) 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #ECC664;
 }
+.electric-type{
+    color: #a87b0b;
+}
 /* GRASS */
 .grass {
     background-image: linear-gradient(180deg,  #4AA148 12%, #7CE27A 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #71DA6F;
+}
+.grass-type{
+    color: #188916;
 }
 /* FIRE */
 .fire {
     background-image: linear-gradient(180deg,  #D66904 12%, #DB9103 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #D76F05;
 }
+.fire-type{
+    color: #b25b04;
+}
 /* WATER */
 .water {
     background-image: linear-gradient(180deg,  #067bce 12%, #219DE3 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #0786E3;
+}
+.water-type{
+    color: #0367ae;
 }
 /* POISON */
 .poison {
     background-image: linear-gradient(180deg,  #651F7D 12%, #9947B6 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #651F7D;
 }
+.poison-type{
+    color: #651F7D;
+}
 /* PSYCHIC */
 .psychic {
     background-image: linear-gradient(180deg,  #d38379 12%, #FE9F92 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #d38379;
+}
+.psychic-type{
+    color: #9c3f33;
 }
 /* GROUND */
 .ground {
     background-image: linear-gradient(180deg,  #8d6f33 12%, #ae893f 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #8d6f33;
 }
+.ground-type{
+    color: #5e4209;
+}
 /* NORMAL */
 .normal {
     background-image: linear-gradient(180deg,  #717170 12%, #9D9D9D 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #717170;
+}
+.normal-type{
+    color: #525251;
 }
 /* ROCK */
 .rock {

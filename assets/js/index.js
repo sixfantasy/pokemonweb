@@ -54,7 +54,7 @@ const printPokemons = (pokemon) => {
 								</li>
 								<li>
 									<h3>TYPE</h3>
-									<p class="transform-info">${pokemon.types[0].type.name}</p>
+									<p class="transform-info ${pokemon.types[0].type.name}-type">${pokemon.types[0].type.name}</p>
 								</li>
 							</ul>
 							<ul class="column">
