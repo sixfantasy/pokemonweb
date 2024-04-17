@@ -16,3 +16,19 @@
 #description {
     color: var(--color-secondary);
 }
+
+#banner-background {
+    position: relative;
+    z-index: -1;
+}
+#entry-title {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 258px;
+    margin-top: 350px;
+}
+#pikaEvolution {
+    position: absolute;
+    z-index: 1;
+}
