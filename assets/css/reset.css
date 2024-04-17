@@ -19,10 +19,6 @@ a {
 	color: inherit;
 }
 
-summary {
-	cursor: pointer;
-}
-
 button {
 	all: unset;
 	display: grid;

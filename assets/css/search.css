@@ -1,43 +1,45 @@
-search {
-	display: flex;
-	gap: 1em;
-	width: 100%;
-}
-
-input {
-    font: inherit;
-    width: 100%;
-    padding: 0.35em 1em;
-    border-radius: 1em;
-    color: var(--main-text-color);
-    background-color: var(--list-number);
-
-    &::placeholder {
-        color: inherit;
-        opacity: 60%;
-    }
-}
-
-button {
-    border-radius: 1em;
-    padding: 0.5em 1em;
-    color: var(--main-text-color);
-    background-color: var(--background-nav);
-}
-
-#fetchResponse {
-	display: grid;
-	gap: 1em;
-}
-
-@media screen and (541px <=width) {
-	#fetchResponse {
-		grid-template-columns: repeat(2, 1fr);
+main {
+	search {
+		display: flex;
+		gap: 1em;
+		width: 100%;
 	}
-}
 
-@media screen and (1083px <=width) {
+	input {
+		font: inherit;
+		width: 100%;
+		padding: 0.35em 1em;
+		border-radius: 1em;
+		color: var(--main-text-color);
+		background-color: var(--list-number);
+
+		&::placeholder {
+			color: inherit;
+			opacity: 60%;
+		}
+	}
+
+	button {
+		border-radius: 1em;
+		padding: 0.5em 1em;
+		color: var(--main-text-color);
+		background-color: var(--background-nav);
+	}
+
 	#fetchResponse {
-		grid-template-columns: repeat(4, 1fr);
+		display: grid;
+		gap: 1em;
+	}
+
+	@media screen and (541px <=width) {
+		#fetchResponse {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media screen and (1083px <=width) {
+		#fetchResponse {
+			grid-template-columns: repeat(4, 1fr);
+		}
 	}
 }
