@@ -40,6 +40,9 @@
 h2::first-letter{
     text-transform: capitalize;
 }
+.transform-info::first-letter{
+    text-transform: capitalize;
+}
 /* Card styles */
 article {
     padding: 24px;
