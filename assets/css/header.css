@@ -3,7 +3,7 @@ header {
     top: 0;
     padding: 1em 10vw;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     z-index: 2;
     gap: 0 1em;
@@ -15,36 +15,11 @@ header {
 
     button {
         width: 1em;
-        /* padding: 0.5em; */
     }
 
-	>[href="./"]{
-		width: 1em;
+	[alt="logo"]{
+		width: 5em;
 	}
-
-    /* details:has(img) {
-        width: 1.4em;
-
-        summary {
-            display: grid;
-
-            &::-webkit-details-marker {
-                display: none;
-            }
-        }
-
-        &[open] {
-            img:nth-of-type(1) {
-                display: none;
-            }
-        }
-
-        &:not([open]) {
-            img:nth-of-type(2) {
-                display: none;
-            }
-        }
-    } */
 
     path {
         stroke: var(--text);
@@ -95,12 +70,8 @@ header {
         padding: 1.35em 7.5vw;
         gap: 0 1.5em;
 
-        >[href="./"] {
-            font-size: 2em;
-        }
-
-        details:has(img) {
-            width: 1.7em;
+        [alt="logo"]{
+            width: 7em;
         }
 
         button {
