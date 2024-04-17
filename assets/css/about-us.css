@@ -14,4 +14,7 @@ p{
     margin-left: 450px;
     margin-right: 250px;
 }
+#AboutusDescription{
+    color: var(--color-secondary);
+}
 
