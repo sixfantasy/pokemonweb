@@ -16,13 +16,12 @@
 	--bold-text: #f3efef;
 	--list-number: #f1e203;
 	--background-nav: #1f5e06;
-	scrollbar-color: var(--) var(--);
+	scrollbar-color: #000000 #e0fffc;
 }
 
 body {
 	font: calc(1*16*100/360*1vw)/1.35 "Mukta", sans-serif;
-	color: var(--);
-	background-color: var(--);
+	background-color: #e0fffc;
 }
 
 main {
@@ -59,7 +58,7 @@ main {
 
     /* 2.5.1 Stroke States */
     --color-stroke-hover: #d7d9dd;
-    --color-stroke-pressed: #1D1D1D; 
+    --color-stroke-pressed: #1D1D1D;
 
     /* 2.6 Semantic Colors */
     --color-semantic-green: #6DD86B;
@@ -84,12 +83,12 @@ main {
     /* 1.4 Stroke DARK Mode */
     --dark-color-stroke-primary: #2F2F2F;
     --dark-color-stroke-secondary: linear-gradient(rgba(34, 34, 34, 0.5), 2%,rgba(47, 48, 48, 0.5), 10%, rgba(7, 7, 7, 0.5));
-   
+
     /* 1.5.6 Semantic Colors */
     --dark-color-semantic-green: #99EB98;
     --dark-color-semantic-yellow: #DA9D00;
     --dark-color-semantic-red: #EB8484;
-    
+
     /* Semantic BLUE */
     /* 2.6.1.1 Content */
     --color-primary-blue: #24A8FA;
