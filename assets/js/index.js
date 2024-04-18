@@ -49,22 +49,22 @@ const printPokemons = (pokemon) => {
 						<section class="card-info">
 							<ul class="column">
 								<li>
-									<h3>HEIGHT</h3>
-									<p>${pokemon.height} m</p>
+									<h3>TYPE</h3>
+									<p class="transform-info ${pokemon.types[0].type.name}-type">${pokemon.types[0].type.name.slice(0, 4)}.</p>
 								</li>
 								<li>
-									<h3>TYPE</h3>
-									<p class="transform-info ${pokemon.types[0].type.name}-type">${pokemon.types[0].type.name}</p>
+									<h3>HEIGHT</h3>
+									<p>${pokemon.height}</p>
 								</li>
 							</ul>
 							<ul class="column">
 								<li>
-									<h3>WEIGHT</h3>
-									<p>${pokemon.weight} kg</p>
+									<h3>BASE EXP.</h3>
+									<p>${pokemon.base_experience}</p>
 								</li>
 								<li>
-									<h3>BASE EXP.</h3>
-									<p>${pokemon.base_experience} xp</p>
+									<h3>WEIGHT</h3>
+									<p>${pokemon.weight}</p>
 								</li>
 							</ul>
 							<ul class="column">
