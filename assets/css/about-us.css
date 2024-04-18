@@ -3,18 +3,21 @@ main{
 }
 h1{
     font-size:xx-large;
+    margin-bottom: 0.75em;
 }
 p{
     font-size: large;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+footer{
+    display: flex;
 }
 #Pikachu2Image {
     width: 500px;
-    margin-left: 450px;
-    margin-right: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #AboutusDescription{
     color: var(--color-secondary);
 }
-
