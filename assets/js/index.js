@@ -50,7 +50,7 @@ const printPokemons = (pokemon) => {
 							<ul class="column">
 								<li>
 									<h3>TYPE</h3>
-									<p class="transform-info ${pokemon.types[0].type.name}-type">${pokemon.types[0].type.name.slice(0, 4)}.</p>
+									<img class="icon-small" src="assets/img/icons-color/Type=${pokemon.types[0].type.name}.svg">
 								</li>
 								<li>
 									<h3>HEIGHT</h3>
