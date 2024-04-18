@@ -36,8 +36,8 @@ const parseJson = async (response) => {
 const printPokemons = (pokemon) => {
 
 	const POKEMON_CARD =
-	
-				`<article class="${pokemon.types[0].type.name}">
+
+		`<article class="${pokemon.types[0].type.name}">
 						<p class="pokeid">${pokemon.id}</p>
 
 						<section>
@@ -80,28 +80,31 @@ const printPokemons = (pokemon) => {
 						</section>
 					</article>`
 
-		
 
 
-		//  `<article>
-		// 	<h2>${pokemon.name}</h2>
-		// 	<img src="${pokemon.sprites.other['official-artwork'].front_default}" alt="Pokemon ${pokemon.name}">
-		// 	<ul>
-		// 		<li><strong>Height:</strong> ${pokemon.height}</li>
-		// 		<li><strong>Weight:</strong> ${pokemon.weight}</li>
-		// 		<li><strong>Base experience:</strong> ${pokemon.base_experience}</li>
+
+	//  `<article>
+	// 	<h2>${pokemon.name}</h2>
+	// 	<img src="${pokemon.sprites.other['official-artwork'].front_default}" alt="Pokemon ${pokemon.name}">
+	// 	<ul>
+	// 		<li><strong>Height:</strong> ${pokemon.height}</li>
+	// 		<li><strong>Weight:</strong> ${pokemon.weight}</li>
+	// 		<li><strong>Base experience:</strong> ${pokemon.base_experience}</li>
 
 
-		// 		<li><strong>Scream:</strong> <audio src="${pokemon.cries.latest}" controls></audio></li>
+	// 		<li><strong>Scream:</strong> <audio src="${pokemon.cries.latest}" controls></audio></li>
 
-		// 		<li>
-		// 	</ul>
-		// </article>`
+	// 		<li>
+	// 	</ul>
+	// </article>`
 
 	RESPONSE_CONTAINER.insertAdjacentHTML("beforeend", POKEMON_CARD);
 }
 
 const prepareInput = (userQuery) => {
+	if (userQuery === "") {
+		throw(ERROR_MESSAGE.innerHTML = "Please introduce a value");
+	}
 	const NEW_INPUT = userQuery.trim().toLowerCase();
 	return NEW_INPUT;
 }
