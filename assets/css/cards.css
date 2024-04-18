@@ -126,44 +126,71 @@ article {
     background-image: linear-gradient(180deg,  #C0A87B 12%, #D7C29B 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #C0A87B;
 }
+.rock-type {
+    color: #C0A87B;
+}
 /* BUG */
 .bug {
     background-image: linear-gradient(180deg,  #99C07B 12%, #B8D4A3 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #99C07B;
+}
+.bug-type {
+    color: #75935e;
 }
 /* GHOST */
 .ghost {
     background-image: linear-gradient(180deg,  #58559F 12%, #7773D4 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #58559F;
 }
+.ghost-type {
+    color: #44437c;
+}
 /* ICE */
 .ice {
     background-image: linear-gradient(180deg,  #73b6ae 12%, #8CDDD4 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #73b6ae;
+}
+.ice-type {
+    color: #598d87;
 }
 /* FAIRY */
 .fairy {
     background-image: linear-gradient(180deg,  #db94b6 12%, #dca6c0 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #db94b6;
 }
+.fairy-type {
+    color: #b87d9a;
+}
 /* FIGHTING */
 .fighting {
     background-image: linear-gradient(180deg,  #a03f41 12%, #ea5154 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #ae3133;
+}
+.fighting-type {
+    color: #8c2729;
 }
 /* DRAGON */
 .dragon {
     background-image: linear-gradient(180deg,  #01639c 12%, #0180C7 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #01639c;
 }
+.dragon-type {
+    color: #014c78;
+}
 /* STEEL*/
 .steel {
     background-image: linear-gradient(180deg,  #437f83 12%, #58A6AA 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #437f83;
 }
+.steel-type {
+    color: #437f83;
+}
 /* DARK */
 .dark {
     background-image: linear-gradient(180deg,  #6c7079 12%, #9298A4 25%, rgba(255,255,255,1) 55%);
     border: 2.5px solid #6c7079;
+}
+.dark-type {
+    color: #595c63;
 }
 
