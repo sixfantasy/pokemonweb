@@ -1,9 +1,10 @@
 # TECHNIC MANUAL OF POKEMONWEB
-
+## INDEX
 <ul>
     <li>1.INDEX</li>
     <li>1.1 HTML INDEX</li>
     <li>1.2 CSS INDEX</li>
+    <li>1.3 JS INDEX</li>
     <li>2.ABOUT-US</li>
     <li>2.1 HTML ABOUT-US</li>
     <li>2.2 CSS ABOUT-US</li>
@@ -16,7 +17,8 @@
     <li>7.INSTALL</li>
     <li>8.USAGE</li>
     <li>9.POKEFILES</li>
-<ul>
+
+</ul>
 
 ## 1.INDEX
 ### 1.1 HTML INDEX
