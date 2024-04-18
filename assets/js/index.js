@@ -69,11 +69,11 @@ const printPokemons = (pokemon) => {
 							<ul class="column">
 								<li>
 									<h3>ABILITY</h3>
-									<p class="transform-info">${pokemon.abilities[0].ability.name.replace(/-/g, " ").slice(0, 8)}</p>
+									<p class="transform-info">${(pokemon.abilities[0].ability.name.replace(/-/g, " ").length > 8) ? pokemon.abilities[0].ability.name.replace(/-/g, " ").slice(0, 8) + "..." : pokemon.abilities[0].ability.name.replace(/-/g, " ")}</p>
 								</li>
 								<li>
 									<h3>MOVES</h3>
-									<p class="transform-info">${pokemon.moves[0].move.name.replace(/-/g, " ")}</p>
+									<p class="transform-info">${(pokemon.moves[0].move.name.replace(/-/g, " ").length > 8) ? pokemon.moves[0].move.name.replace(/-/g, " ").slice(0, 8) + "..." : pokemon.moves[0].move.name.replace(/-/g, " ")}</p>
 								</li>
 							</ul>
 						</section>
