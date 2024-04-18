@@ -7,11 +7,11 @@
  <li>1.3 The Searcher</li>
  <li>1.3.1 Cards</li>
  <li>1.3.1.1 Type of Pokémon</li>
+ <li>1.3.1.2 Number of Pokédex</li>
+ <li>1.3.1.3 Data of Pokémon</li>
  <li>2.The Minimum Versions of Navigators</li>
- <li>3.Key Features</li>
- <li>4.Install</li>
- <li>5.Usage</li>
- <li>6.PokeFiles</li>
+ <li>3.Usage</li>
+ 
 </ul>
 
 ## 1.Sections
@@ -28,16 +28,11 @@ The cards have the name, the height, base experience,the ability, the generation
 Some Pokémon has more than one card, for example, if you search "Pikachu" you would find seventeen cards, as the Gigamax Pikachu or a Pikachu with diferent clothes, or, if you search "Charizard" you will find four diferent cards.
 ##### 1.3.1.1 Type of Pokémon
 The Pokémon's type appears both in the description below, as well as the card will turn the color of the Pokémon's type.
+##### 1.3.1.2 Number of Pokédex
+The Pokédex number appears at the top right
+##### 1.3.1.3 Data of Pokémon
+The Pokémon's data appears almost all below in the description
 ## 2. The Minimum Versions of Navigators
 The minimum versions of navigators are: Chromium 120, Firefox 125 and Safari 17.2.
-## 3. Key Features
-Uses PokeAPI to get all the Pokemon data
-## 4.Install
-Install this project with:
-
-This project doesn't need to be installed
-## 5.Usage
+# 3.Usage
 Read stats about different Pokemon.
-## 6.PokeFiles
-The Pokefiles used is: https://pokeapi.co/api/v2/
-## 7.Authors

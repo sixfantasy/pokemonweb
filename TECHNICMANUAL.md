@@ -1,4 +1,23 @@
 # TECHNIC MANUAL OF POKEMONWEB
+
+<ul>
+    <li>1.INDEX</li>
+    <li>1.1 HTML INDEX</li>
+    <li>1.2 CSS INDEX</li>
+    <li>2.ABOUT-US</li>
+    <li>2.1 HTML ABOUT-US</li>
+    <li>2.2 CSS ABOUT-US</li>
+    <li>3.SEARCH</li>
+    <li>3.1 HTML SEARCH</li>
+    <li>3.2 CSS SEARCH</li>
+    <li>4.API</li>
+    <li>5.KEY FEATURES</li>
+    <li>6.INSTALL</li>
+    <li>7.USAGE</li>
+    <li>8.POKEFILES</li>
+    <li>9.AUTHORS</li>
+<ul>
+
 ## 1.INDEX
 ### 1.1 HTML INDEX
 ### 1.2 CSS INDEX
@@ -14,3 +33,14 @@ In the image we have implemented a width of 500 px and we have also implemented 
 ### 3.2 CSS SEARCH
 ## 4.API
 We have used the API "https://pokeapi.co/api/v2/" which has 1302 entries, which is invoked with a fetch and a return, through several constants
+## 5.KEY FEATURES
+Uses PokeAPI to get all the Pokemon data
+## 6.INSTALL
+Install this project with:
+
+This project doesn't need to be installed
+## 7.USAGE
+Read stats about different Pokemon.
+## 8.POKEFILES
+The Pokefiles used is: https://pokeapi.co/api/v2/
+## 9.AUTHORS
