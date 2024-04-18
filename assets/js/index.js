@@ -36,8 +36,7 @@ const parseJson = async (response) => {
 const printPokemons = (pokemon) => {
 
 	const POKEMON_CARD =
-
-		`<article class="${pokemon.types[0].type.name}">
+		`<a onclick="playAudio('${pokemon.cries.latest}')"><article class="${pokemon.types[0].type.name}">
 						<p class="pokeid">${pokemon.id}</p>
 
 						<section>
@@ -78,7 +77,9 @@ const printPokemons = (pokemon) => {
 								</li>
 							</ul>
 						</section>
-					</article>`
+					</article>
+				</a>`
+				
 
 
 
@@ -141,3 +142,7 @@ window.addEventListener("keydown", input => {
 		firstFunction(SEARCH_BAR.value);
 	}
 });
+function playAudio(url) {
+	console.log("Playing audio")
+	new Audio(url).play();
+  }
