@@ -20,8 +20,11 @@
 
 ## 1.INDEX
 ### 1.1 HTML INDEX
+The home page, which explains the purpose of the whole website.
 ### 1.2 CSS INDEX
+This file gives the specific style unique for the home page.
 ### 1.3 JS INDEX
+Contains the main logic of the search functionality. It allows to fetch the info from the PokeApi, and guide the user when something goes wrong (No results found, no input provided...).
 ## 2.ABOUT-US
 ### 2.1 HTML ABOUT-US
 For the About-Us HTML, we have linked the html with the Poké Ball svg, and with the css of the index header, the About-us, the reset and with the general CSS. Later, within the header we have inserted the Pokémon logo so that it appears on the left.
@@ -31,7 +34,9 @@ In the About-us CSS we have implemented a main with a text-align: center to cent
 In the image we have implemented a width of 500 px and we have also implemented a margin-left at 450 px and a margin-right at 250 px to reduce its size to a normal size.
 ## 3.SEARCH
 ### 3.1 HTML SEARCH
+In this file the user can enter an input to send it to the PokeApi, which will return the matching results.
 ### 3.2 CSS SEARCH
+This file gives the specific style unique for the search page.
 ## 4.DATABASE
 In the database there is all the API data, with the Pokémon data that the user then fetches when using the website.
 ## 5.API
