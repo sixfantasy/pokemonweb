@@ -37,6 +37,10 @@
     z-index: 1;
 }
 
+#h2 {
+    width: 100%;
+}
+
 .cards {
     display: grid;
     gap: 10px;
