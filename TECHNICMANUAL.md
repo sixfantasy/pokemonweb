@@ -16,7 +16,6 @@
     <li>7.INSTALL</li>
     <li>8.USAGE</li>
     <li>9.POKEFILES</li>
-    <li>10.AUTHORS</li>
 <ul>
 
 ## 1.INDEX
@@ -34,6 +33,7 @@ In the image we have implemented a width of 500 px and we have also implemented 
 ### 3.1 HTML SEARCH
 ### 3.2 CSS SEARCH
 ## 4.DATABASE
+In the database there is all the API data, with the Pokémon data that the user then fetches when using the website.
 ## 5.API
 We have used the API "https://pokeapi.co/api/v2/" which has 1302 entries, which is invoked with a fetch and a return, through several constants
 ## 6.BUILT WITH
@@ -46,4 +46,3 @@ This project doesn't need to be installed
 Read stats about different Pokemon.
 ## 9.POKEFILES
 The Pokefiles used is: https://pokeapi.co/api/v2/
-## 10.AUTHORS
