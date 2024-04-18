@@ -10,17 +10,19 @@
     <li>3.SEARCH</li>
     <li>3.1 HTML SEARCH</li>
     <li>3.2 CSS SEARCH</li>
-    <li>4.API</li>
-    <li>5.KEY FEATURES</li>
-    <li>6.INSTALL</li>
-    <li>7.USAGE</li>
-    <li>8.POKEFILES</li>
-    <li>9.AUTHORS</li>
+    <li>4.DATABASE</li>
+    <li>5.API</li>
+    <li>6. BUILT WITH</li>
+    <li>7.INSTALL</li>
+    <li>8.USAGE</li>
+    <li>9.POKEFILES</li>
+    <li>10.AUTHORS</li>
 <ul>
 
 ## 1.INDEX
 ### 1.1 HTML INDEX
 ### 1.2 CSS INDEX
+### 1.3 JS INDEX
 ## 2.ABOUT-US
 ### 2.1 HTML ABOUT-US
 For the About-Us HTML, we have linked the html with the Poké Ball svg, and with the css of the index header, the About-us, the reset and with the general CSS. Later, within the header we have inserted the Pokémon logo so that it appears on the left.
@@ -31,16 +33,17 @@ In the image we have implemented a width of 500 px and we have also implemented 
 ## 3.SEARCH
 ### 3.1 HTML SEARCH
 ### 3.2 CSS SEARCH
-## 4.API
+## 4.DATABASE
+## 5.API
 We have used the API "https://pokeapi.co/api/v2/" which has 1302 entries, which is invoked with a fetch and a return, through several constants
-## 5.KEY FEATURES
-Uses PokeAPI to get all the Pokemon data
-## 6.INSTALL
+## 6.BUILT WITH
+Uses PokeAPI,HTML,JavaScript,CSS and a lot of SVG's to built the Pokemon website.
+## 7.INSTALL
 Install this project with:
 
 This project doesn't need to be installed
-## 7.USAGE
+## 8.USAGE
 Read stats about different Pokemon.
-## 8.POKEFILES
+## 9.POKEFILES
 The Pokefiles used is: https://pokeapi.co/api/v2/
-## 9.AUTHORS
+## 10.AUTHORS

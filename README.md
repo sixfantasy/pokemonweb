@@ -32,6 +32,9 @@ The Pokémon's type appears both in the description below, as well as the card w
 The Pokédex number appears at the top right
 ##### 1.3.1.3 Data of Pokémon
 The Pokémon's data appears almost all below in the description
+
+<img src="BlastoiseManualdeUso" alt="Blastoise">
+
 ## 2. The Minimum Versions of Navigators
 The minimum versions of navigators are: Chromium 120, Firefox 125 and Safari 17.2.
 # 3.Usage
