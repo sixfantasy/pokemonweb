@@ -9,12 +9,14 @@ p{
     margin-left: 230px;
     margin-right: 230px;
 }
+footer{
+    display: flex;
+}
 #Pikachu2Image {
     width: 500px;
-    margin-left: 450px;
-    margin-right: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #AboutusDescription{
     color: var(--color-secondary);
 }
-
