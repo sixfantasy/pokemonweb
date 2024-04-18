@@ -44,7 +44,7 @@ const printPokemons = (pokemon) => {
 							<img class="icon" src="assets/img/icons/Type=${pokemon.types[0].type.name}.svg">
 						</section>
 
-						<h2>${pokemon.name}</h2>
+						<h2>${pokemon.name.replace(/-/g, " ")}</h2>
 						<section class="card-info">
 							<ul class="column">
 								<li>
@@ -69,11 +69,11 @@ const printPokemons = (pokemon) => {
 							<ul class="column">
 								<li>
 									<h3>ABILITY</h3>
-									<p class="transform-info">${pokemon.abilities[0].ability.name}</p>
+									<p class="transform-info">${pokemon.abilities[0].ability.name.replace(/-/g, " ").slice(0, 8)}</p>
 								</li>
 								<li>
 									<h3>MOVES</h3>
-									<p class="transform-info">${pokemon.moves[0].move.name}</p>
+									<p class="transform-info">${pokemon.moves[0].move.name.replace(/-/g, " ")}</p>
 								</li>
 							</ul>
 						</section>
