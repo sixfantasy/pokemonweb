@@ -12,3 +12,5 @@ In the image we have implemented a width of 500 px and we have also implemented 
 ## 3.SEARCH
 ### 3.1 HTML SEARCH
 ### 3.2 CSS SEARCH
+## 4.API
+We have used the API "https://pokeapi.co/api/v2/" which has 1302 entries, which is invoked with a fetch and a return, through several constants
